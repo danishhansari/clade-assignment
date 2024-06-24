@@ -5,14 +5,14 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="flex items-center justify-between px-6 border-b py-3">
-                <button className='bg-[#e7e7e7] text-[#DC4A2D] font-semibold py-3 px-5 tracking-wider'>
+            <nav className="flex items-center justify-between px-4 md:px-6 border-b py-1.5 md:py-3">
+                <button className='bg-[#e7e7e7] text-[#DC4A2D] font-semibold py-2 md:py-3 px-4 md:px-5 tracking-wider text-lg'>
                     Logo
                 </button>
 
                 <div className='font-medium flex gap-3'>
                     <div className='flex items-center'>
-                        <button className='bg-[#DC4A2D] text-white flex items-center pt-4 pb-3 px-3 rounded-full gap-1 shadow-[#f5907c] shadow-inner drop-shadow-lg border border-[#FCB4A5]'><Briefcase size={ 23 } />Jobs</button>
+                        <button className='bg-[#DC4A2D] text-white flex items-center pt-2 pb-2 px-2 md:pt-4 md:pb-3 md:px-3 rounded-full gap-1 shadow-[#f5907c] shadow-inner drop-shadow-lg border border-[#FCB4A5]'><Briefcase size={ 23 } />Jobs</button>
                     </div>
 
                     <NavList />
