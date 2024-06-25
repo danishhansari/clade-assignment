@@ -19,10 +19,10 @@ const Navbar = () => {
 
                 </div>
 
-                <div className='flex items-center gap-1 md:gap-3'>
+                <div className='flex items-center gap-2 md:gap-3'>
                     <p className='relative'>
-                        <span className='w-1.5 h-1.5 rounded-full bg-[#dc4a2d] absolute -top-0.5 right-0'></span>
-                        <Bell className='w-6 md:w-8' />
+                        <span className='w-1 h-1 md:w-1.5 md:h-1.5 rounded-full bg-[#dc4a2d] absolute -top-0.5 right-0.5'></span>
+                        <Bell className='w-5 md:w-8' />
                     </p>
                     <img src={ atlassianIcon } className='w-8 h-8 rounded-full' alt="" />
                     <ChevronDown size={ 18 } />
