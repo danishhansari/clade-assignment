@@ -14,7 +14,7 @@ const MainLayout = () => {
         <AboutTheJob />
         <AboutTheCompany />
       </div>
-      <div className="grid-cols-1 md:mx-auto border-r">
+      <div className="grid-cols-1 md:mx-auto md:border-r">
         <JobAction />
         {/* <Quote /> */ }
       </div>

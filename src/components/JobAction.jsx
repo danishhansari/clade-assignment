@@ -1,7 +1,7 @@
 import { Trash2, Pencil, Users, UserRoundCheck, Eye, MessageSquare } from 'lucide-react'
 const JobAction = () => {
     return (
-        <div className="py-4 md:py-6 md:pl-6 max-w-sm pr-6">
+        <div className="py-4 md:py-6 md:pl-6 max-w-sm px-6">
             <div className="flex items-center gap-4">
                 <button className="px-7 py-2 border rounded-lg border-[#dc4a2d] text-[#dc4a2d] bg-[#FEF4F2] tracking-wider"><Trash2 className='w-4 inline-block mr-2' />Delete job</button>
                 <button className="px-7 py-2 shadow-inner drop-shadow-md rounded-lg bg-[#dc4a2d] text-white border "><Pencil className="w-4 inline-block mr-2" />Edit job</button>
