@@ -1,5 +1,5 @@
 import { Trash2, Pencil, Users, UserRoundCheck, Eye, MessageSquare } from 'lucide-react'
-const JobAction = () => {
+const JobAction = ({ jobStatus }) => {
     return (
         <div className="py-4 md:py-6 md:pl-6 max-w-sm px-6">
             <div className="flex items-center gap-4">
@@ -9,19 +9,19 @@ const JobAction = () => {
             <div className="flex flex-col mt-8 gap-4">
                 <div className="flex py-4 border-b justify-between pr-2">
                     <p className='text-gray-500 font-medium tracking-wide text-sm md:text-base    '><Users className='inline-block mr-2' />Applicants</p>
-                    <p className='text-base md:text-lg text-gray-500 font-semibold tracking-wider'>400</p>
+                    <p className='text-base md:text-lg text-gray-500 font-semibold tracking-wider'>{ jobStatus.applicants }</p>
                 </div>
                 <div className="flex py-4 border-b justify-between pr-2">
                     <p className='text-gray-500 font-medium tracking-wide'><UserRoundCheck className='inline-block mr-2' />Matches</p>
-                    <p className='text-base md:text-lg text-gray-500 font-semibold tracking-wider'>100</p>
+                    <p className='text-base md:text-lg text-gray-500 font-semibold tracking-wider'>{ jobStatus.matches }</p>
                 </div>
                 <div className="flex py-4 border-b justify-between pr-2">
                     <p className='text-gray-500 font-medium tracking-wide'><MessageSquare className='inline-block mr-2' />Messages</p>
-                    <p className='text-base md:text-lg text-gray-500 font-semibold tracking-wider'>147</p>
+                    <p className='text-base md:text-lg text-gray-500 font-semibold tracking-wider'>{ jobStatus.messages }</p>
                 </div>
                 <div className="flex py-4 justify-between pr-2">
                     <p className='text-gray-500 font-medium tracking-wide'><Eye className='inline-block mr-2' />Views</p>
-                    <p className='text-base md:text-lg text-gray-500 font-semibold tracking-wider'>800</p>
+                    <p className='text-base md:text-lg text-gray-500 font-semibold tracking-wider'>{ jobStatus.views }</p>
                 </div>
             </div>
         </div>

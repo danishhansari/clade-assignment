@@ -1,20 +1,14 @@
-import figmaIcon from "../assets/figma.png"
-import adobeIllustratorIcon from "../assets/adobeIllustrator.png"
-import adobeXdIcon from "../assets/adobeXd.png"
-import SkillItem from "../utils/SkillItem"
+import Skills from "./Skills"
 
-const JobRequirement = () => {
+const JobRequirement = ({ skills, language, jobType, experience }) => {
     return (
         <div className="flex flex-col md:flex-row border-b px-4 md:pl-20 py-2 md:py-6 gap-8 md:gap-32">
 
             <div>
                 <h2 className="text-sm md:text-base text-gray-500 mb-2 font-medium">Skilled Required</h2>
 
-                <div>
-                    <SkillItem image={ figmaIcon } skill={ "Figma" } />
-                    <SkillItem image={ adobeIllustratorIcon } skill={ "Adobe Illustrator" } />
-                    <SkillItem image={ adobeXdIcon } skill={ "Adobe XD" } />
-                </div>
+                <Skills skills={ skills } />
+
             </div>
 
 
@@ -22,22 +16,23 @@ const JobRequirement = () => {
 
                 <div>
                     <h2 className="text-sm md:text-base text-gray-500 mb-2 font-medium text-nowrap">Preferred Language</h2>
-                    <div>
-                        <p className="text-gray-700">English</p>
-                    </div>
+                    {
+                        language.map((lang, index) => <p key={ index } className="text-gray-700">{ lang }</p>)
+                    }
                 </div>
 
                 <div>
                     <h2 className="text-sm md:text-base text-gray-500 mb-2 font-medium">Type</h2>
-                    <div>
-                        <p className="text-gray-700 text-nowrap">Full time</p>
-                    </div>
+                    {
+                        jobType.map((type, index) => <p key={ index } className="text-gray-700 text-nowrap">{ type }</p>
+                        )
+                    }
                 </div>
 
                 <div>
                     <h2 className="text-sm md:text-base text-gray-500 mb-2 font-medium text-nowrap">Years of Experience</h2>
                     <div>
-                        <p className="text-gray-700 text-nowrap">3+ Years of Experience</p>
+                        <p className="text-gray-700 text-nowrap">{ experience } of Experience</p>
                     </div>
                 </div>
 
