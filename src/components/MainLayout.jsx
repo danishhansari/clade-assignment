@@ -12,7 +12,7 @@ const MainLayout = () => {
         <JobTitle />
         <JobRequirement />
         <AboutTheJob />
-        {/* <AboutTheCompany /> */}
+        <AboutTheCompany />
       </div>
       {/* <JobAction /> */ }
       {/* <Quote /> */ }

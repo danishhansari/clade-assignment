@@ -2,42 +2,50 @@ import atlassianIcon from "../assets/atlassian.png"
 const AboutTheCompany = () => {
     return (
         <>
-            <div className="flex items-center">
-                <img src={ atlassianIcon } alt="" />
-                <h3>Atlassian</h3>
-                <button>Follow</button>
-            </div>
-            <div className="flex justify-between items-center">
-                <div className="flex flex-col">
-                    <div>
-                        <h5>Company size</h5>
-                        <p>1k - 2k Employee</p>
-                    </div>
-                    <div>
-                        <h5>Sector</h5>
-                        <p>Information Technology, Infrastructure</p>
-                    </div>
-                    <div>
-                        <h5>Founded in</h5>
-                        <p>2019</p>
-                    </div>
+            <div className="px-4 md:pl-20 py-4 md:py-6">
+                <div className="flex items-center gap-4 mb-4">
+                    <img src={ atlassianIcon } className="w-10 rounded-md shadow-sm" alt="" />
+                    <h3 className="text-md md:text-xl text-[#3d3d3d]">Atlassian</h3>
+                    <button className="text-[#003788] bg-[#e0ebf9d8] text-xs font-semibold px-2 py-1 drop-shadow-xs border-[#003788] rounded-md">Follow</button>
                 </div>
-                <div className="flex flex-col">
-                    <div>
-                        <h5>Type</h5>
-                        <p>Private</p>
-                    </div>
-                    <div>
-                        <h5>Funding</h5>
-                        <p>Bootstrapped</p>
-                    </div>
-                    <div>
-                        <h5>Founded By</h5>
-                        <a href="">Scott Farquhar</a>
-                        <a href="">Mike Cannan-Brookes</a>
-                    </div>
-                </div>
+                <div className="flex justify-between items-center max-w-3xl">
 
+                    <div className="flex flex-col gap-2 md:gap-4">
+                        <div className="mt-2">
+                            <h5 className="text-sm font-medium mb-1 text-gray-500 tracking-wide">Company size</h5>
+                            <p className="text-sm text-gray-600 font-semibold tracking-wider">1k - 2k Employee</p>
+                        </div>
+                        <div>
+                            <h5 className="text-sm font-medium mb-1 text-gray-500 tracking-wide">Sector</h5>
+                            <p className="text-sm text-gray-600 font-semibold tracking-wider">Information Technology, Infrastructure</p>
+                        </div>
+                        <div>
+                            <h5 className="text-sm font-medium mb-1 text-gray-500 tracking-wide">Founded in</h5>
+                            <p className="text-sm text-gray-600 font-semibold tracking-wider">2019</p>
+                        </div>
+                    </div>
+
+
+                    <div className="flex flex-col gap-2 md:gap-4">
+                        <div className="mt-2">
+                            <h5 className="text-sm font-medium mb-1 text-gray-500 tracking-wide">Type</h5>
+                            <p className="text-sm text-gray-600 font-semibold tracking-wider" >Private</p>
+                        </div>
+                        <div>
+                            <h5 className="text-sm font-medium mb-1 text-gray-500 tracking-wide">Funding</h5>
+                            <p className="text-sm text-gray-600 font-semibold tracking-wider" >Bootstrapped</p>
+                        </div>
+                        <div>
+                            <h5 className="text-sm font-medium mb-1 text-gray-500 tracking-wide">Founded By</h5>
+                            <div className="text-sm text-gray-600 font-semibold tracking-wider">
+                                <a href="">Scott Farquhar</a>
+                                <a href="">Mike Cannan-Brookes</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <a href="#" className="text-xs text-gray-400 underline inline-block mt-6">Report this listing</a>
             </div>
         </>
     )
