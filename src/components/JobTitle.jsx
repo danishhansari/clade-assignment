@@ -13,7 +13,7 @@ const JobTitle = () => {
                 </div>
             </div>
             <div className="flex gap-4 items-center text-gray-500 text-md md:text-lg">
-                <p className="flex gap-1 md:gap-2"><MapPin />Delaware, USA</p>
+                <p className="flex gap-1 md:gap-2"><MapPin className="w-4 md:w-5"/>Delaware, USA</p>
                 <p className="flex gap-1 md:gap-2">
                     <Database className="w-4" />
                     $300k-$400k</p>

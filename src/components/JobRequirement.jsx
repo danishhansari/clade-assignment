@@ -9,7 +9,7 @@ const JobRequirement = () => {
 
             <div>
                 <h2 className="text-sm md:text-md text-gray-500 mb-2 font-medium">Skilled Required</h2>
-                <div className="flex flex-col gap-2 max-w-[45vw]">
+                <div className="flex md:flex-col flex-wrap gap-2">
                     <SkillItem image={ figmaIcon } skill={ "Figma" } />
                     <SkillItem image={ adobeIllustratorIcon } skill={ "Adobe Illustrator" } />
                     <SkillItem image={ adobeXdIcon } skill={ "Adobe XD" } />
