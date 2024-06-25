@@ -10,8 +10,8 @@ const MainLayout = () => {
     <div>
       <div className="py-4 md:py-6">
         <JobTitle />
-        {/* <JobRequirement />
-        <AboutTheJob />
+        <JobRequirement />
+        {/* <AboutTheJob />
         <AboutTheCompany /> */}
       </div>
       {/* <JobAction /> */ }
