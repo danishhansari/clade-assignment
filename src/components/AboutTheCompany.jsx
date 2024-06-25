@@ -5,7 +5,7 @@ const AboutTheCompany = () => {
             <div className="px-4 md:pl-20 py-4 md:py-6">
                 <div className="flex items-center gap-4 mb-4">
                     <img src={ atlassianIcon } className="w-10 rounded-md shadow-sm" alt="" />
-                    <h3 className="text-md md:text-xl text-[#3d3d3d]">Atlassian</h3>
+                    <h3 className="text-base md:text-xl text-[#3d3d3d]">Atlassian</h3>
                     <button className="text-[#003788] bg-[#e0ebf9d8] text-8s px-2 py-1 drop-shadow-xs border-[#003788] rounded-md">Follow</button>
                 </div>
 

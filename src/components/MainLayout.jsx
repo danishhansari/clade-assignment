@@ -8,7 +8,7 @@ import Quote from "./Quote"
 const MainLayout = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-      <div className="py-4 md:py-6 col-span-2 border-r w-full">
+      <div className="py-2 col-span-2 border-r w-full">
         <JobTitle />
         <JobRequirement />
         <AboutTheJob />
