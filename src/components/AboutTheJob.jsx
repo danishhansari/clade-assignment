@@ -1,8 +1,8 @@
 const AboutTheJob = () => {
     return (
-        <div>
-            <h5>About the Job</h5>
-            <ol>
+        <div className="px-4 md:pl-20 py-4 md:py-8 border-b">
+            <h5 className="text-gray-500 text-sm tracking-wide">About the Job</h5>
+            <ul className="list-decimal max-w-lg px-4 mt-2 text-[#3D3D3D] font-medium">
                 <li>Handle the UI/UX research design</li>
                 <li>
                     Work on researching on latest web applications designs & trends
@@ -13,26 +13,28 @@ const AboutTheJob = () => {
                 <li>
                     Work on creating graphics content and other graphic related works
                 </li>
-            </ol>
-            <h2>
+            </ul>
+            <h5 className="text-gray-700 text-sm tracking-wide mt-2">
                 Benefits:
-            </h2>
-            <ul>
+            </h5>
+            <ul className="list-disc px-8 text-[#3D3D3D] font-medium">
                 <li>
                     Health insurance
                 </li>
                 <li>Provident Fund</li>
             </ul>
 
-            <h2>Schedule:</h2>
-            <ul>
+            <h5 className="text-gray-700 text-sm tracking-wide mt-2">
+                Schedule:</h5>
+            <ul className="list-disc px-8 text-[#3d3d3d] font-medium">
                 <li>
                     Day shift
                 </li>
             </ul>
 
-            <h2>Supplemental pay types:</h2>
-            <ul>
+            <h5 className="text-gray-700 text-sm tracking-wide mt-2">
+                Supplemental pay types:</h5>
+            <ul className="list-disc px-8 text-[#3d3d3d] font-medium">
                 <li>
                     Performance bonus.
                 </li>

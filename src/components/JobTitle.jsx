@@ -1,7 +1,7 @@
 import { MapPin, Database } from "lucide-react"
 const JobTitle = () => {
     return (
-        <div className="flex flex-col gap-2 md:gap-4 border-b px-4 md:pl-20 py-3 md:py-6">
+        <div className="flex flex-col gap-2 md:gap-4 border-b px-4 md:pl-20 py-2 md:py-6">
             <div className="flex gap-2 md:gap-6 items-center">
                 <h1 className="text-lg md:text-3xl font-extrabold text-[#3d3d3d] tracking-wide">Senior Product Designer</h1>
                 <div className="flex items-center gap-2 md:gap-4">
