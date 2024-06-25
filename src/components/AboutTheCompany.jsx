@@ -8,7 +8,8 @@ const AboutTheCompany = () => {
                     <h3 className="text-md md:text-xl text-[#3d3d3d]">Atlassian</h3>
                     <button className="text-[#003788] bg-[#e0ebf9d8] text-xs font-semibold px-2 py-1 drop-shadow-xs border-[#003788] rounded-md">Follow</button>
                 </div>
-                <div className="flex justify-between items-center max-w-3xl">
+
+                <div className="flex justify-between max-w-3xl">
 
                     <div className="flex flex-col gap-2 md:gap-4">
                         <div className="mt-2">
@@ -45,6 +46,7 @@ const AboutTheCompany = () => {
                     </div>
 
                 </div>
+
                 <a href="#" className="text-xs text-gray-400 underline inline-block mt-6">Report this listing</a>
             </div>
         </>
